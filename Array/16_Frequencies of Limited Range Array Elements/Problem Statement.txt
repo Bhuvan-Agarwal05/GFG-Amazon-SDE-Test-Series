@@ -1,0 +1,52 @@
+Frequencies of Limited Range Array Elements  =>
+
+Given an array A[] of N positive integers which can contain integers from 1 to N where elements can be repeated or can be absent from the array. 
+Your task is to count the frequency of all elements from 1 to N.
+
+Input : 
+	The first line of input contains an integer T denoting the number of test cases. 
+	For each test case, the first line contains an integer N denoting the size of the array. 
+	The second line contains N space-separated integers denoting the elements of the array.
+
+Output :
+	For each test case, output N space-separated integers denoting the frequency of each element from 1 to N.
+
+Your Task:
+	Complete the function frequencycount() that takes the array and N as input parameters and, 
+	updates the given array in place to denote the frequency count of each element from 1 to N. ie- element at index 0 should represent frequency of 1 and so on. 
+	The driver code prints the contents of the modified array. 
+
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(1)
+
+Constraints:
+   -> 1 ≤ T ≤ 100
+   -> 1 ≤ N ≤ 4*104 
+   -> 1 <= A[i] <= N
+
+Example: 
+
+		Sample Input:
+				2
+				5
+				2 3 2 3 5
+				4
+				3 3 3 3
+
+		Sample Output:
+				0 2 2 0 1
+				0 0 4 0
+
+		Explanation:
+				Testcase 1: Counting frequencies of each array element, we have:
+					    1 occurring 0 times.
+					    2 occurring 2 times.
+					    3 occurring 2 times.
+					    4 occurring 0 times.
+					    5 occurring 1 time.
+
+				Testcase 2: Counting frequencies of each array element, we have:
+					    1 occurring 0 times.
+					    2 occurring 0 times.	
+				    	    3 occurring 4 times.
+   					    4 occurring 0 times.
