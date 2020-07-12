@@ -9,7 +9,6 @@ class SquartRoot{
 			long a = sc.nextInt();
 			SquareRoot obj = new SquareRoot();
 			System.out.println(obj.floorSqrt(a));
-			t--;
 		}
 	}
 }
